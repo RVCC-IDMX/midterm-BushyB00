@@ -180,14 +180,17 @@ footer{
        left: 0;
        right: 0;
    }
-    aside{
-        height:450px;
-        width:79.7%;
-    }
-    aside {
-        display: grid;
-        grid-template-columns:2fr 1fr;
-    }
+   aside{
+    height:300px;
+    width:79%;
+}
+main{
+    width: 79%;
+}
+
+
+    
+  
    
      .submission{
         display:flex;
