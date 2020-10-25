@@ -1,0 +1,251 @@
+
+body{
+    
+    background-image:linear-gradient(#6b4f25,black);
+    
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    border:2px solid #765729;
+    border-radius: 10px 10px 0px 0px;
+    margin: 2px 10% 2px 10%;
+    box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+    
+}
+h1{
+    background-image: url(../img/cave.jpg); 
+    background-position:center;
+    height:100px;
+}
+h2{
+    border-bottom: 2px dashed black;
+    padding-bottom: 5px;
+    
+}
+nav { 
+  
+    background-color: #dad3c9;
+    box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+    border:2px solid #765729;
+    margin: 2px 10% 2px 10%;
+    
+}
+nav li{
+    border-right: 3px double black;
+    text-align: center;
+    
+}
+nav ul{
+display:flex;
+justify-content: center;  
+ align-items: center  
+}
+
+nav li {
+    display: inline-block;
+    width:150px;
+    font-size:15px;
+   
+}
+
+main{
+    background-color: #dad3c9;
+    box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+    border: 2px solid #765729;
+    float:left;
+    width:63%;
+    margin: 2px 0% 4px 10%;
+    
+}
+
+#cover{
+    float:left;
+    width: 130px;
+    margin:0 1.5%;
+}
+aside{
+    
+    background-color: #dad3c9;
+    box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+    border: 2px solid #765729;
+    float:right;
+    width:15%;
+    margin:2px 10% 4px 0%;
+    height:1055px;
+}
+
+.submission {
+    border:1px solid black;
+    margin: 10px 2% 10px 2%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#cryptogram{
+    text-align: center;
+    font-style: italic;
+}
+#cryptogram{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+figure {
+    position: relative;
+}
+figcaption {
+  position: absolute;
+  top:100%;
+   bottom: 0;
+   left: 0;
+   right: 0;
+}
+
+footer{
+    background-color: #dad3c9;
+    text-align:center;
+    border:2px solid #765729;
+    box-shadow:5px 5px 5px rgba(0, 0, 0,.5);
+    border-radius: 0px 0px 10px 10px;
+    clear:both;
+    margin: 2px 10% 2px 10%;
+    box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+
+}
+@media screen and (min-device-width : 375px) and (max-device-width : 667px) {
+   
+    #cryptogram{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    figure {
+        position: relative;
+   }
+   figcaption {
+      position: absolute;
+      top:100%;
+       bottom: 0;
+       left: 0;
+       right: 0;
+   }
+    aside{
+        height:300px;
+        width:79%;
+    }
+    main{
+        width: 79%;
+
+    }
+    h1{
+        font-size:32px;
+        background-position:center;
+    }
+    nav ul {
+        display:grid;
+        grid-column:2/4;
+    }
+    nav ul{
+    display:flex;
+    justify-content: center;  
+     align-items: center  
+    }
+    
+    nav li {
+        display: inline-block;
+        width:200px;
+        grid-column:2/4;
+    }
+    
+   }
+   @media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    #cryptogram{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    figure {
+        position: relative;
+   }
+   figcaption {
+      position: absolute;
+      top:100%;
+       bottom: 0;
+       left: 0;
+       right: 0;
+   }
+    aside{
+        height:450px;
+        width:79.7%;
+    }
+    aside {
+        display: grid;
+        grid-template-columns:2fr 1fr;
+    }
+   
+     .submission{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+     }
+    aside h2{
+        grid-column: 1/-1;
+     }
+     aside{
+        display: block;
+     }
+    main{
+        width: 79.7%;
+    }
+    h1{
+        font-size: 46px;
+    }
+    @media only screen  and (min-width: 1024px) and (max-height: 1366px){
+    }
+    main{
+        background-color: #dad3c9;
+        box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+        border: 2px solid #765729;
+        float:left;
+        width:63%;
+        margin:0px 0% 0px 0%;
+       
+        
+    }
+    aside{
+    
+        background-color: #dad3c9;
+        box-shadow:inset 10px 10px 10px rgba(0, 0, 0,.5);
+        border: 2px solid #765729;
+        float:right;
+        width:34%;
+        margin:10px 0% 10px 0%;
+        height:1090px;
+        
+    }
+    .submission{
+        text-align: center;
+        font-size:20px;
+    }
+    #signature{
+        text-align: center;
+        font-size:40px;
+    }
+    h1{
+        margin:10px 0% 10px 0%;
+    }
+    nav{
+        margin:10px 0% 10px 0%;
+    }
+    footer{
+        margin:10px 0% 10px 0%;
+    }
+   }
